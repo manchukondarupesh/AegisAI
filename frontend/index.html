@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AegisAI - Drone Intelligence</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🛸 AegisAI</h1>
+        <p>Multi-Agent Drone Intelligence & Autonomous Operations Platform</p>
+    </header>
+
+    <main>
+
+        <section class="dashboard">
+
+            <div class="card">
+                <h2>🚁 Drone Status</h2>
+                <p id="drone-status">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h2>🔋 Battery</h2>
+                <p id="battery-status">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h2>🌡️ Temperature</h2>
+                <p id="temperature-status">Loading...</p>
+            </div>
+
+            <div class="card">
+                <h2>🚨 Alerts</h2>
+                <p id="alert-status">Loading...</p>
+            </div>
+
+        </section>
+
+<section class="fleet-section">
+
+    <h2>🚁 Drone Fleet</h2>
+
+    <div class="table-container">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Drone ID</th>
+                    <th>Model</th>
+                    <th>Status</th>
+                    <th>Battery</th>
+                    <th>Temperature</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+
+            <tbody id="drone-table-body">
+                <tr>
+                    <td colspan="6">Loading drone data...</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+<section class="mission-section">
+
+    <h2>📋 Mission Monitoring</h2>
+
+    <div class="table-container">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Mission ID</th>
+                    <th>Drone ID</th>
+                    <th>Mission Type</th>
+                    <th>Status</th>
+                    <th>Duration (min)</th>
+                </tr>
+            </thead>
+
+            <tbody id="mission-table-body">
+                <tr>
+                    <td colspan="5">Loading mission data...</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+<section class="telemetry-section">
+    <h2>📡 Live Drone Telemetry</h2>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Drone ID</th>
+                    <th>Altitude (m)</th>
+                    <th>Speed (m/s)</th>
+                    <th>Battery</th>
+                    <th>Temperature</th>
+                    <th>Signal Strength</th>
+                </tr>
+            </thead>
+
+            <tbody id="telemetry-table-body">
+                <tr>
+                    <td colspan="6">Loading telemetry data...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<section class="alert-section">
+
+    <h2>🚨 Safety Alerts</h2>
+
+    <div id="alert-list">
+        <p>Loading safety alerts...</p>
+    </div>
+
+</section>
+        <section class="chat-section">
+
+            <h2>🤖 AegisAI Agent</h2>
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Ask about drones, battery, missions or alerts..."
+            >
+
+            <button onclick="askAgent()">
+                Ask AegisAI
+            </button>
+
+            <div id="response">
+                <p>Agent response will appear here.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>AegisAI | Multi-Agent Drone Intelligence Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

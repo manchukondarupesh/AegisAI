@@ -1,0 +1,30 @@
+AegisAI Company Information
+
+AegisAI is an intelligent multi-agent AI platform designed to automate business tasks.
+
+The platform contains multiple AI agents that collaborate with each other.
+
+The main components of AegisAI are:
+
+1. RAG Agent
+The RAG agent retrieves relevant information from company documents and provides accurate answers.
+
+2. Tool Agent
+The Tool Agent can use external tools such as calculators and data processing functions.
+
+3. ML Agent
+The ML Agent performs machine learning tasks such as prediction and classification.
+
+4. Orchestrator Agent
+The Orchestrator decides which specialized agent should handle a user's request.
+
+5. Verification Agent
+The Verification Agent checks the output produced by other agents.
+
+AegisAI follows a multi-agent architecture where specialized agents work together.
+
+The system is designed using Python, LangChain, LangGraph, RAG, vector databases and local large language models.
+
+The system uses Llama 3.2 as its local language model through Ollama.
+
+The goal of AegisAI is to provide an intelligent, reliable and scalable AI assistant for business applications.

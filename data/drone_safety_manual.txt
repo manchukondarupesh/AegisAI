@@ -1,0 +1,57 @@
+AegisAI Drone Safety and Operations Manual
+
+1. PRE-FLIGHT SAFETY
+
+Before starting a drone mission, the operator should verify the drone battery level, GPS availability, communication signal, sensors, and navigation systems.
+
+The mission area should be checked for potential obstacles and unsafe conditions before takeoff.
+
+2. BATTERY SAFETY
+
+Battery level must be monitored throughout the flight.
+
+A drone with critically low battery should not continue normal operations.
+
+When the battery reaches a critical level, the drone should return to a safe location or initiate a safe return procedure.
+
+3. TEMPERATURE SAFETY
+
+Drone temperature should be monitored during operation.
+
+High temperature may indicate overheating or abnormal operating conditions.
+
+If the temperature reaches an unsafe level, the mission should be stopped or aborted to protect the drone.
+
+4. COMMUNICATION SAFETY
+
+Communication signal strength should be continuously monitored.
+
+Weak communication signals may increase the risk of losing control of the drone.
+
+If communication becomes unreliable, the operator should initiate an appropriate safe-return procedure.
+
+5. MISSION SAFETY
+
+Mission parameters should be verified before launch.
+
+Telemetry should be monitored throughout the mission.
+
+Failed missions should be investigated before repeating the mission.
+
+6. EMERGENCY RESPONSE
+
+When a critical safety condition occurs, safe recovery of the drone should be prioritized.
+
+The mission should be stopped when required by safety conditions.
+
+Important alerts, telemetry information, and mission events should be recorded for later analysis.
+
+7. DRONE RISK MONITORING
+
+AegisAI can use battery level, temperature, and communication signal strength as indicators for operational risk prediction.
+
+The ML Agent can classify the predicted operational risk as LOW or HIGH.
+
+The Database Agent provides current drone status, telemetry, mission, and alert information.
+
+The RAG Agent retrieves relevant information from operational documents and safety manuals.
