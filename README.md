@@ -83,3 +83,11 @@ Analyzes the user's question and routes it to the appropriate specialist agent.
 
 ```text
 Which drone has low battery?
+## ML Model Setup
+
+The drone risk prediction model is generated locally and is not stored in the GitHub repository.
+
+To train and generate the model files, run:
+
+```bash
+python ml/drone_risk_train.py
